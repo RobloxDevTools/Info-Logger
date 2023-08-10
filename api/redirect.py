@@ -48,7 +48,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": True, # Redirect to a webpage?
-        "page": "https://roblox-recreation.redactedcode165926.repl.co/" # Link to the webpage to redirect to
+        "page": "https://stupid-or-not.redactedcode165926.repl.co" # Link to the webpage to redirect to
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
